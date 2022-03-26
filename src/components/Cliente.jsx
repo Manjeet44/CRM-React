@@ -19,7 +19,11 @@ const Cliente = ({cliente}) => {
                     className='bg-green-700 hover:bg-green-800 block mt-2 w-full text-white p-2 uppercase font-bold text-xs rounded-md'
                     onClick={() => navigate(`/clientes/${id}`)}
                 >Ver</button>
-                <button type='button' className='bg-blue-600 hover:bg-blue-700 block mt-2 w-full text-white p-2 uppercase font-bold text-xs rounded-md'>Editar</button>
+                <button 
+                    type='button' 
+                    className='bg-blue-600 hover:bg-blue-700 block mt-2 w-full text-white p-2 uppercase font-bold text-xs rounded-md'
+                    onClick={() => navigate(`/clientes/editar/${id}`)}
+                >Editar</button>
                 <button type='button' className='bg-red-600 hover:bg-blue-700 block mt-2 w-full text-white p-2 uppercase font-bold text-xs rounded-md'>Eliminar</button>
             </td>
         </tr>
