@@ -1,0 +1,68 @@
+{
+  "clientes": [
+    {
+      "nombre": "Andreu",
+      "empresa": " 1SA canova",
+      "email": "andrew.vab@gmail.com",
+      "telefono": "676915382",
+      "notas": "Ese",
+      "id": 1
+    },
+    {
+      "nombre": "Andreu",
+      "empresa": " 1SA canova",
+      "email": "andrew.vab@gmail.com",
+      "telefono": "676915382",
+      "notas": "Ese",
+      "id": 2
+    },
+    {
+      "nombre": "Andreu",
+      "empresa": " 1SA canova",
+      "email": "andrew.vab@gmail.com",
+      "telefono": "676915382",
+      "notas": "Ese",
+      "id": 3
+    },
+    {
+      "nombre": "Andreu Anglada",
+      "empresa": " 1SA canova",
+      "email": "andreab@gmail.com",
+      "telefono": "677656464",
+      "notas": "Ese",
+      "id": 4
+    },
+    {
+      "nombre": "Intriga",
+      "empresa": "Ara SI!",
+      "email": "adasdaab@gmail.com",
+      "telefono": "674563463",
+      "notas": "",
+      "id": 5
+    },
+    {
+      "nombre": "Drama",
+      "empresa": "SA canova",
+      "email": "asdada@as.com",
+      "telefono": "525252",
+      "notas": "",
+      "id": 6
+    },
+    {
+      "nombre": "Drama",
+      "empresa": "Recepcionist",
+      "email": "andre234242@gmail.com",
+      "telefono": "23452523",
+      "notas": "as",
+      "id": 7
+    },
+    {
+      "nombre": "Andreu",
+      "empresa": " 1SA canova",
+      "email": "andrew.vab@gmail.com",
+      "telefono": "",
+      "notas": "",
+      "id": 8
+    }
+  ]
+}
