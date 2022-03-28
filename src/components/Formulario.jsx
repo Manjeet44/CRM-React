@@ -17,16 +17,30 @@ const Formulario = ({cliente, cargando}) => {
 
     const handleSubmit = async (valores) => {
       try {
-        const url = 'http://localhost:4000/clientes';
+        let respuesta
+        if(cliente.id) {
+          //Editando Registro
+          const url = `http://localhost:4000/clientes/${cliente.id}`;
 
-        const respuesta = await fetch(url, {
-          method: 'POST',
-          body: JSON.stringify(valores),
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        })
-        const resultado = await respuesta.json();
+          respuesta = await fetch(url, {
+            method: 'PUT',
+            body: JSON.stringify(valores),
+            headers: {
+              'Content-Type': 'application/json'
+            }
+          })
+        } else {
+          //Nuevo Registro
+          const url = 'http://localhost:4000/clientes';
+          respuesta = await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(valores),
+            headers: {
+              'Content-Type': 'application/json'
+            }
+          })
+        }
+        await respuesta.json()
         navigate('/clientes')
       } catch (error) {
         console.log(error);
